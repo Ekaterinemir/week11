@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+
+  .x {
+    color: blue;
+    font-size: 80px;
+  }
+  
+
+  .o {
+    color: red;
+    font-size: 80px;
+  }
+
+  .win {
+    background-color:brown;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #reset {
+    margin: 50px 40%;
+    padding: 20px;
+    color:brown;
+  }
+  
+body{
+    background-image: url(https://thumbs.dreamstime.com/z/close-up-wooden-tic-tac-toe-game-paper-brown-background-flat-lay-concept-input-your-text-idea-91441420.jpg?w=992);
+    background-size: cover;
+} 
+
+#turnIndicator {
+  text-align: center; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: brown;
+}
+
+#header {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  color:brown;
+}
